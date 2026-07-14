@@ -4,7 +4,7 @@ const path = require('path');
 const percorsoFile = process.argv[2];
 
 if (!percorsoFile) {
-    console.log('Uso: node test.js percorso/file.html');
+    console.log('Uso: node index.js percorso/file.html');
     process.exit(1);
 }
 
